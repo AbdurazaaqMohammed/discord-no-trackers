@@ -3,7 +3,8 @@ This is a project to remove (not disable or block) as many trackers as possible 
 
 # Trackers in the Discord app
 App Manager reports 7 tracker components in the Discord app
-![Trackers displayed by App Manager in Discord](https://files.catbox.moe/l4gkez.webp)
+
+![Trackers displayed by App Manager in Discord](https://media.discordapp.net/attachments/1205307121474998284/1230303559967445054/Screenshot_20240418-014656_App_Manager.png?ex=662ce5ba&is=662b943a&hm=4ff9f9487311bbcb3fd0f44d9c72e31147fbacac1278db64d8008852124e075b&=&format=webp&quality=lossless&width=306&height=680)
 
 # About [Pyoncord](https://github.com/pyoncord/Bunny)
 The root version of Pyoncord works perfectly, just install and enable it in LSPosed as usual.
