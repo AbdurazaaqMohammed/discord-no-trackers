@@ -9,7 +9,9 @@ App Manager reports 7 tracker components in the Discord app. AdjustReferrerRecei
 In addition, Discord has its own analytics package, in com.discord.analytics, which is not reported by App Manager.
 
 # Removal/Modification Process
-Note: I will record a video documenting this entire process when the next stable version of Discord is released. 
+[Video showing the removal process](https://www.youtube.com/watch?v=6GNFPOTawtc) (This is not a tutorial but if you really want to you can follow what I did). It doesn't include most of the optimizations at the end because of how long they take.
+
+Note: If you really don't want to use MT Manager you can use this regex to clear void methods: ```(\.method\s(public|private|static)\s\b(?!\babstract|native\b).*\(.*\)V\n.()([\s\S]*?)(\.end method)```
 
 Although Discord is a React Native app, fortunately, the trackers are present in the classes.dex files in the APK, which contain the Dalvik bytecode generated from Java/Kotlin code. This is likely as tracker packages are produced in native code to maintain compatibility with as many types of apps as possible.
 
